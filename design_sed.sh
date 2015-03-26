@@ -9,12 +9,6 @@
 #
 ############################################
 
-###############################
-# lists created for: 
-#  * all the subjects
-#  * all masks
-###############################
-
 img_dirs=$(ls -d -1 */ )
 
 main_design='design.fsf'
