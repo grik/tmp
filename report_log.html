@@ -1,0 +1,397 @@
+<HTML><HEAD>
+<!--refreshstart-->
+
+<!--refreshstop-->
+<link REL=stylesheet TYPE=text/css href=.files/fsl.css>
+<TITLE>FSL</TITLE></HEAD><BODY><OBJECT data=report.html></OBJECT>
+<h2>Progress Report / Log</h2>
+Started at Tue Mar 24 11:02:47 CET 2015<p>
+Feat main script<br><pre>
+
+/bin/cp /tmp/feat_Q7OoPS.fsf design.fsf
+
+mkdir .files;cp /usr/share/fsl/5.0/doc/fsl.css .files;cp -r /usr/share/fsl/5.0/doc/images .files/images
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 10 -l logs -N feat1a_init   /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica -I 1 -init
+12402
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 17 -l logs -N feat2_pre -j 12402  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica -I 1 -prestats
+12534
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 12534  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica -stop
+13432
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 10 -l logs -N feat1a_init   /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/design.fsf -D /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica -I 2 -init
+13618
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 17 -l logs -N feat2_pre -j 13618  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/design.fsf -D /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica -I 2 -prestats
+13696
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 13696  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/design.fsf -D /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica -stop
+14584
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 10 -l logs -N feat1a_init   /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica -I 3 -init
+14770
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 17 -l logs -N feat2_pre -j 14770  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica -I 3 -prestats
+14850
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 14850  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica -stop
+15749
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 10 -l logs -N feat1a_init   /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica -I 4 -init
+15935
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 17 -l logs -N feat2_pre -j 15935  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica -I 4 -prestats
+16015
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 16015  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica -stop
+16909
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 180 -l logs -N feat4_gica -j 12534,13696,14850,16015  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/rest.gica/design.fsf -D /home/jesmasta/neuro/rest.gica -gica
+17051
+
+/usr/share/fsl/5.0/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 17051  /usr/share/fsl/5.0/bin/feat /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/design.fsf -D /home/jesmasta/neuro/rest.gica -stop
+</pre><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></BODY></HTML>
+</pre><hr>Higher-level MELODIC<br><pre>
+
+/usr/share/fsl/5.0/bin/featregapply /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica
+
+/usr/share/fsl/5.0/bin/flirt -ref reg/standard -in reg/standard -out reg_standard/standard -applyisoxfm 4
+
+
+/usr/share/fsl/5.0/bin/flirt -ref reg_standard/standard -in filtered_func_data -out frgrot_77qw8t -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/share/fsl/5.0/bin/fslmaths reg_standard/filtered_func_data -Tstd -bin reg_standard/mask -odt char
+
+
+/usr/share/fsl/5.0/bin/featregapply /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica
+
+/usr/share/fsl/5.0/bin/flirt -ref reg/standard -in reg/standard -out reg_standard/standard -applyisoxfm 4
+
+
+/usr/share/fsl/5.0/bin/flirt -ref reg_standard/standard -in filtered_func_data -out frgrot_Q4O3Cy -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/share/fsl/5.0/bin/fslmaths reg_standard/filtered_func_data -Tstd -bin reg_standard/mask -odt char
+
+
+/usr/share/fsl/5.0/bin/featregapply /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica
+
+/usr/share/fsl/5.0/bin/flirt -ref reg/standard -in reg/standard -out reg_standard/standard -applyisoxfm 4
+
+
+/usr/share/fsl/5.0/bin/flirt -ref reg_standard/standard -in filtered_func_data -out frgrot_uk7gXJ -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/share/fsl/5.0/bin/fslmaths reg_standard/filtered_func_data -Tstd -bin reg_standard/mask -odt char
+
+
+/usr/share/fsl/5.0/bin/featregapply /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica
+
+/usr/share/fsl/5.0/bin/flirt -ref reg/standard -in reg/standard -out reg_standard/standard -applyisoxfm 4
+
+
+/usr/share/fsl/5.0/bin/flirt -ref reg_standard/standard -in filtered_func_data -out frgrot_TLkpt2 -applyxfm -init reg/example_func2standard.mat -interp trilinear -datatype float
+
+
+/usr/share/fsl/5.0/bin/fslmaths reg_standard/filtered_func_data -Tstd -bin reg_standard/mask -odt char
+
+
+/usr/share/fsl/5.0/bin/fslmerge -t bg_image  /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/bg_image /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/reg_standard/bg_image /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/bg_image /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/reg_standard/bg_image
+
+/usr/share/fsl/5.0/bin/fslmaths bg_image -inm 1000 -Tmean bg_image -odt float
+
+/usr/share/fsl/5.0/bin/fslmerge -t mask  /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/mask /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/reg_standard/mask /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/mask /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/reg_standard/mask
+
+mkdir -p inputreg
+
+/usr/share/fsl/5.0/bin/fslmaths ../mask -mul 4 -Tmean masksum -odt short
+
+/usr/share/fsl/5.0/bin/fslmaths masksum -thr 4 -add masksum masksum
+
+/usr/share/fsl/5.0/bin/overlay 0 0 -c ../bg_image -a masksum 0.9 8 masksum_overlay
+
+/usr/share/fsl/5.0/bin/slicer masksum_overlay -S 2 750 masksum_overlay.png
+
+/usr/share/fsl/5.0/bin/fslmaths masksum -mul 0 maskunique
+
+/usr/share/fsl/5.0/bin/fslmaths /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/mask -mul -1 -add 1 -mul 1 -add maskunique maskunique
+
+/usr/share/fsl/5.0/bin/fslmaths /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/reg_standard/mask -mul -1 -add 1 -mul 2 -add maskunique maskunique
+
+/usr/share/fsl/5.0/bin/fslmaths /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/mask -mul -1 -add 1 -mul 3 -add maskunique maskunique
+
+/usr/share/fsl/5.0/bin/fslmaths /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/reg_standard/mask -mul -1 -add 1 -mul 4 -add maskunique maskunique
+
+/usr/share/fsl/5.0/bin/fslmaths masksum -thr 3 -uthr 3 -bin -mul maskunique maskunique
+
+/usr/share/fsl/5.0/bin/overlay 0 0 ../bg_image -a maskunique 0.9 4 maskunique_overlay
+
+/usr/share/fsl/5.0/bin/slicer maskunique_overlay -S 2 750 maskunique_overlay.png
+
+/bin/cp /usr/share/fsl/5.0/etc/luts/ramp.gif .ramp.gif
+
+/usr/share/fsl/5.0/bin/fslmaths mask -Tmin -bin mask -odt char
+
+/usr/share/fsl/5.0/bin/melodic -i .filelist -o groupmelodic.ica -v --nobet --bgthreshold=10 --tr=2.0 --report --guireport=../../report.html --bgimage=bg_image -d 0 --mmthresh=0.5 -a concat
+
+Melodic Version 3.14
+
+Melodic results will be in groupmelodic.ica
+
+Create mask ... done
+Reading data file /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/filtered_func_data  ...  done
+  Estimating data smoothness ...  done 
+  Removing mean image ... done
+Reading data file /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+Reading data file /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+Reading data file /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+Excluding voxels with constant value ... done
+
+Normalising jointly by voxel-wise variance ... done
+
+Initial data size : 176 x 36459
+
+Reading data file /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+  Individual whitening in a 22 dimensional subspace 
+Reading data file /home/jesmasta/neuro/9603424/session_1/rest_1/rest_linearMNI3mm_rest+.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+  Individual whitening in a 22 dimensional subspace 
+Reading data file /home/jesmasta/neuro/9858555/session_1/rest_1/rest_linearMNI3mm_rest.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+  Individual whitening in a 22 dimensional subspace 
+Reading data file /home/jesmasta/neuro/9858555/session_1/rest_2/rest_linearMNI3mm_rest.ica/reg_standard/filtered_func_data  ...  done
+  Removing mean image ... done
+  Individual whitening in a 22 dimensional subspace 
+
+  Data size : 88 x 36459
+
+Starting PCA  ... done
+Start whitening using  22 dimensions ... 
+  retaining 52.2792 percent of the variability 
+ ... done
+
+Starting ICA estimation using concat
+
+  Step no. 1 change : 0.908019
+  Step no. 2 change : 0.120914
+  Step no. 3 change : 0.0344915
+  Step no. 4 change : 0.0338847
+  Step no. 5 change : 0.0272751
+  Step no. 6 change : 0.0210179
+  Step no. 7 change : 0.012465
+  Step no. 8 change : 0.011164
+  Step no. 9 change : 0.0105902
+  Step no. 10 change : 0.0073965
+  Step no. 11 change : 0.00407567
+  Step no. 12 change : 0.00220382
+  Step no. 13 change : 0.00193767
+  Step no. 14 change : 0.00217684
+  Step no. 15 change : 0.00234253
+  Step no. 16 change : 0.00237057
+  Step no. 17 change : 0.00220642
+  Step no. 18 change : 0.00190889
+  Step no. 19 change : 0.00175752
+  Step no. 20 change : 0.00153641
+  Step no. 21 change : 0.00128664
+  Step no. 22 change : 0.00103918
+  Step no. 23 change : 0.000814382
+  Step no. 24 change : 0.000623703
+  Step no. 25 change : 0.000471294
+  Step no. 26 change : 0.000355784
+  Step no. 27 change : 0.000272398
+  Step no. 28 change : 0.000214932
+  Step no. 29 change : 0.000177187
+  Step no. 30 change : 0.000153754
+  Step no. 31 change : 0.000140282
+  Step no. 32 change : 0.000133443
+  Step no. 33 change : 0.00013077
+  Step no. 34 change : 0.000130452
+  Step no. 35 change : 0.000131172
+  Step no. 36 change : 0.000131971
+  Step no. 37 change : 0.000132167
+  Step no. 38 change : 0.000131297
+  Step no. 39 change : 0.000129089
+  Step no. 40 change : 0.000125434
+  Step no. 41 change : 0.000120367
+  Step no. 42 change : 0.000114043
+  Step no. 43 change : 0.000106707
+  Step no. 44 change : 9.86564e-05
+  Step no. 45 change : 9.02122e-05
+  Step no. 46 change : 8.16827e-05
+  Step no. 47 change : 7.33405e-05
+  Step no. 48 change : 6.54058e-05
+  Step no. 49 change : 5.80392e-05
+  Step no. 50 change : 5.13418e-05
+  Step no. 51 change : 4.53621e-05
+  Convergence after 51 steps 
+
+Sorting IC maps
+
+Writing results to : 
+  groupmelodic.ica/melodic_IC
+  groupmelodic.ica/melodic_Tmodes
+  groupmelodic.ica/melodic_mix
+  groupmelodic.ica/melodic_FTmix
+  groupmelodic.ica/melodic_PPCA
+  groupmelodic.ica/melodic_ICstats
+  groupmelodic.ica/mask
+...done
+Creating report index page ...done
+
+
+Running Mixture Modelling on Z-transformed IC maps ...
+  IC map 1 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 2 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 3 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 4 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 5 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 6 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 7 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 8 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 9 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 10 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 11 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 12 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 13 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 14 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 15 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 16 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 17 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 18 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 19 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 20 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 21 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+  IC map 22 ... 
+   calculating mixture-model fit 
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   creating report page ...    done
+
+Writing results to : 
+  groupmelodic.ica/melodic_IC
+  groupmelodic.ica/melodic_Tmodes
+  groupmelodic.ica/melodic_mix
+  groupmelodic.ica/melodic_FTmix
+  groupmelodic.ica/melodic_PPCA
+  groupmelodic.ica/melodic_ICstats
+  groupmelodic.ica/mask
+...done
+
+
+ To view the output report point your web browser at groupmelodic.ica/report/00index.html
+
+finished!
+
