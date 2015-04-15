@@ -1,0 +1,458 @@
+
+
+############################################
+sub001
+########
+
+###############
+complete DMN (all elements)
+####
+run_001 and run 002
+0.343805	
+run_003 and run 004
+0.476983	
+run_005 and run 006
+0.428831	
+run_007 and run 008
+0.390893	
+run_009 and run 010
+0.303139	
+run_011 and run 012
+0.339411	
+
+###############
+ang_epi.nii.gz
+####
+run_001 and run 002
+0.585595	
+run_003 and run 004
+0.495123	
+run_005 and run 006
+0.391577	
+run_007 and run 008
+0.399306	
+run_009 and run 010
+0.424014	
+run_011 and run 012
+0.440292	
+
+###############
+frontal_epi.nii.gz
+####
+run_001 and run 002
+0.265164	
+run_003 and run 004
+0.435901	
+run_005 and run 006
+0.405978	
+run_007 and run 008
+0.337429	
+run_009 and run 010
+0.360021	
+run_011 and run 012
+0.228026	
+
+###############
+posterior_epi.nii.gz
+####
+run_001 and run 002
+0.552703	
+run_003 and run 004
+0.688735	
+run_005 and run 006
+0.559261	
+run_007 and run 008
+0.557973	
+run_009 and run 010
+0.446068	
+run_011 and run 012
+0.569793	
+
+############################################
+
+
+
+
+############################################
+sub002
+########
+
+###############
+complete DMN (all elements)
+####
+run_001 and run 002
+0.552996	
+run_003 and run 004
+0.596481	
+run_005 and run 006
+0.507069	
+run_007 and run 008
+0.547591	
+run_009 and run 010
+0.520118	
+run_011 and run 012
+0.622107	
+
+###############
+ang_epi.nii.gz
+####
+run_001 and run 002
+0.691167	
+run_003 and run 004
+0.677995	
+run_005 and run 006
+0.58084	
+run_007 and run 008
+0.620671	
+run_009 and run 010
+0.414695	
+run_011 and run 012
+0.655898	
+
+###############
+frontal_epi.nii.gz
+####
+run_001 and run 002
+0.648249	
+run_003 and run 004
+0.70136	
+run_005 and run 006
+0.593636	
+run_007 and run 008
+0.680341	
+run_009 and run 010
+0.576735	
+run_011 and run 012
+0.73829	
+
+###############
+posterior_epi.nii.gz
+####
+run_001 and run 002
+0.86639	
+run_003 and run 004
+0.846069	
+run_005 and run 006
+0.717631	
+run_007 and run 008
+0.743505	
+run_009 and run 010
+0.77218	
+run_011 and run 012
+0.829633	
+
+############################################
+
+
+
+
+############################################
+sub003
+########
+
+###############
+complete DMN (all elements)
+####
+run_001 and run 002
+0.268271	
+run_003 and run 004
+0.282904	
+run_005 and run 006
+0.23748	
+run_007 and run 008
+0.462651	
+run_009 and run 010
+0.0938064	
+run_011 and run 012
+0.33746	
+
+###############
+ang_epi.nii.gz
+####
+run_001 and run 002
+0.277319	
+run_003 and run 004
+0	
+run_005 and run 006
+0.346944	
+run_007 and run 008
+0.371871	
+run_009 and run 010
+0.186483	
+run_011 and run 012
+0.312822	
+
+###############
+frontal_epi.nii.gz
+####
+run_001 and run 002
+0.159162	
+run_003 and run 004
+0.054134	
+run_005 and run 006
+0.199549	
+run_007 and run 008
+0.328277	
+run_009 and run 010
+0.165506	
+run_011 and run 012
+0.353669	
+
+###############
+posterior_epi.nii.gz
+####
+run_001 and run 002
+0.43608	
+run_003 and run 004
+0.525696	
+run_005 and run 006
+0.364317	
+run_007 and run 008
+0.67851	
+run_009 and run 010
+0.209166	
+run_011 and run 012
+0.519534	
+
+############################################
+
+
+
+
+############################################
+sub004
+########
+
+###############
+complete DMN (all elements)
+####
+run_001 and run 002
+0.444201	
+run_005 and run 006
+0.478098	
+run_007 and run 008
+0.492766	
+run_009 and run 010
+0.4496	
+run_011 and run 012
+0.388361	
+
+###############
+ang_epi.nii.gz
+####
+run_001 and run 002
+0.31928	
+run_005 and run 006
+0.34708	
+run_007 and run 008
+0.489016	
+run_009 and run 010
+0.264746	
+run_011 and run 012
+0.395082	
+
+###############
+frontal_epi.nii.gz
+####
+run_001 and run 002
+0.462971	
+run_005 and run 006
+0.467677	
+run_007 and run 008
+0.52302	
+run_009 and run 010
+0.442318	
+run_011 and run 012
+0.342312	
+
+###############
+posterior_epi.nii.gz
+####
+run_001 and run 002
+0.64171	
+run_005 and run 006
+0.493512	
+run_007 and run 008
+0.62539	
+run_009 and run 010
+0.591695	
+run_011 and run 012
+0.626659	
+
+############################################
+
+
+
+
+############################################
+sub005
+########
+
+###############
+complete DMN (all elements)
+####
+run_001 and run 002
+0.223139	
+run_003 and run 004
+0.211469	
+run_005 and run 006
+0.0887361	
+run_007 and run 008
+0.250311	
+run_009 and run 010
+0.132023	
+
+###############
+ang_epi.nii.gz
+####
+run_001 and run 002
+0.291014	
+run_003 and run 004
+0.268686	
+run_005 and run 006
+0	
+run_007 and run 008
+0.32242	
+run_009 and run 010
+0.30085	
+
+###############
+frontal_epi.nii.gz
+####
+run_001 and run 002
+0.243073	
+run_003 and run 004
+0.124932	
+run_005 and run 006
+0.0334323	
+run_007 and run 008
+0.247495	
+run_009 and run 010
+0	
+
+###############
+posterior_epi.nii.gz
+####
+run_001 and run 002
+0.385251	
+run_003 and run 004
+0.396555	
+run_005 and run 006
+0.163905	
+run_007 and run 008
+0.407747	
+run_009 and run 010
+0.115602	
+
+############################################
+
+
+
+
+############################################
+sub006
+########
+
+###############
+complete DMN (all elements)
+####
+run_001 and run 002
+0.211006	
+run_003 and run 004
+0.153334	
+run_005 and run 006
+0.0562041	
+run_007 and run 008
+0.165925	
+run_009 and run 010
+0.0475369	
+run_011 and run 012
+0.0169209	
+
+###############
+ang_epi.nii.gz
+####
+run_001 and run 002
+0.293733	
+run_003 and run 004
+0.363602	
+run_005 and run 006
+0.157196	
+run_007 and run 008
+0.246831	
+run_009 and run 010
+0	
+run_011 and run 012
+0	
+
+###############
+frontal_epi.nii.gz
+####
+run_001 and run 002
+0.0653581	
+run_003 and run 004
+0.0942357	
+run_005 and run 006
+0	
+run_007 and run 008
+0	
+run_009 and run 010
+0	
+run_011 and run 012
+0	
+
+###############
+posterior_epi.nii.gz
+####
+run_001 and run 002
+0.271432	
+run_003 and run 004
+0.099957	
+run_005 and run 006
+0.052202	
+run_007 and run 008
+0.329837	
+run_009 and run 010
+0.25489	
+run_011 and run 012
+0	
+
+############################################
+
+
+sub001_whole_dmn_.38051033
+sub001_ang_epi.nii.gz_.45598450
+sub001_frontal_epi.nii.gz_.33875316
+sub001_posterior_epi.nii.gz_.56242216
+###############################
+________
+sub002_whole_dmn_.55772700
+sub002_ang_epi.nii.gz_.60687766
+sub002_frontal_epi.nii.gz_.65643516
+sub002_posterior_epi.nii.gz_.79590133
+###############################
+________
+sub003_whole_dmn_.28042873
+sub003_ang_epi.nii.gz_.24923983
+sub003_frontal_epi.nii.gz_.21004950
+sub003_posterior_epi.nii.gz_.45555050
+###############################
+________
+sub004_whole_dmn_.45060520
+sub004_ang_epi.nii.gz_.36304080
+sub004_frontal_epi.nii.gz_.44765960
+sub004_posterior_epi.nii.gz_.59579320
+###############################
+________
+sub005_whole_dmn_.18113562
+sub005_ang_epi.nii.gz_.23659400
+sub005_frontal_epi.nii.gz_.12978646
+sub005_posterior_epi.nii.gz_.29381200
+###############################
+________
+sub006_whole_dmn_.10848781
+sub006_ang_epi.nii.gz_.17689366
+sub006_frontal_epi.nii.gz_.02659896
+sub006_posterior_epi.nii.gz_.16805300
+###############################
+________
