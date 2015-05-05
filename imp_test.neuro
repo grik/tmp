@@ -1,0 +1,54 @@
+class:
+name:ImpTest
+longname:Impulsing neuron true
+description:Sends signal forward if sum of inputs is enough
+prefinputs:-1
+prefoutput:1
+code:~
+function init()
+{
+    Fields.rsv = Fields.rs;
+}
+
+function go()
+{
+
+    if(Fields.rsv >= Fields.ap)
+    {
+        Fields.rsv = Fields.rsv + Neuro.inputSum * Fields.wi;
+    }
+
+    if(Fields.rsv < Fields.ap)
+    {
+        Fields.rsv = Fields.rsv + Neuro.inputSum * Fields.wi;
+        Neuro.state = 0;
+    }
+
+}
+~
+
+
+prop:
+id:rs
+name:resting state
+type:f -1.0 1.0 0.0
+
+prop:
+id:rsv
+name:resting state variable
+type:f
+
+prop:
+id:t
+name:threshold
+type:f
+
+prop:
+id:ap
+name:action potential
+type:f
+
+prop:
+id:wi
+name:weight input
+type:f 0.0 1.0 1.0
